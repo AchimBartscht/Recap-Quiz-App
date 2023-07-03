@@ -1,0 +1,49 @@
+*,
+{
+    box-sizing: border-box;
+}
+
+  body {
+    display: flex;
+    flex-direction: column;
+    margin: 80px 0 45px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: pink;
+    border: 1px solid #252629;
+    border-radius: 20px;
+    }    
+    
+
+    .card {
+        margin: 20px 10%;
+        border: 1px solid #252629;
+        padding: 3% 10%;
+        scroll-margin-top: 100px;
+        border-radius: 2rem;
+        background-color: lightcyan;
+      }
+
+    footer {
+        display: flex;
+        background-color: goldenrod;
+        border: 1px solid #252629;
+        justify-content: center;
+        border-radius: 20px;
+        flex-direction: row;   
+    }
+
+
+
+   
+
+
+
+
