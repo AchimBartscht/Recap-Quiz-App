@@ -3,47 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FirstRecapProject</title>
-    <link href="ccc/styles.css" rel="style sheets">
+    <title>QuizApp</title>
+    <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
-    <header><h1>Quiz App</h1></header>
+
+    <header class="header"><h1>Quiz App</h1></header>
 
     <main>
-    
 
-    <section class="Question card-1">
-        <h2>What property flips the axes in flexbox?</h2>
-        <button>Show answer</button>
-        
+        <section class="card">
+            <h2 class="card__heading">What property flips the axes in flexbox?</h2>
+            <button class="bookmark"></button>
+            <button>Show answer</button>
+
         <ul>
-            <li>html</li>
-            <li>flexbox</li>
-            <li>class</li>
-        </ul>
-    </section>
-    <section class="Question card-2">
-        <h2>Lore ipsum dolor</h2>
-        <button>Show answer</button>
-        
-        <ul>
-            <li>html</li>
-            <li>flexbox</li>
-            <li>class</li>
+            <li class="answer_button">html</li>
+            <li class="answer_butteon">flexbox</li>
+            <li class="answer_button">class</li>
         </ul>
     </section>
 
+    <section class="card">
+        <h2 class="card__heading">First: Lore ipsum dolor</h2>
+        <button class="bookmark"></button>
+        <button>Show answer</button>
+        <ul>
+            <li class="answer_button">html</li>
+            <li class="answer_button">flexbox</li>
+            <li class="answer_button">class</li>
+        </ul>
+        
+      </section>
 
+      <section class="card">
+        <h2 class="card__heading">Second: Lore ipsum dolor</h2>
+        <button class="bookmark"></button>
+        <button>Show answer</button>
+        <ul>
+            <li class="answer_button">html</li>
+            <li class="answer_button">flexbox</li>
+            <li class="answer_button">class</li>
+        </ul>
+        
+      </section>
     </main>
 
-</body>
-<footer>fixed footer
+
+<footer class="footer">
     <nav>
-        <ul>
-            <li>Home</li>
-            <li>Bookmark</li>
-            <li>Profil</li>
-        </ul>
-    </nav>
+        <a href="QuizApp">QuizApp</a>
+        <a href="bookmark.html">Bookmark</a>
+        <a href="Profile.html">Profile</a>
+      </nav>
 </footer>
+    
+</body>
 </html>
