@@ -1,40 +1,39 @@
 * {    box-sizing: border-box;
 }
 
-  body {
-    display: flex;
-    flex-direction: column;
-    margin: 80px 0 45px 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-
 .header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
-    background-color: pink;
-    border: 1px solid #252629;
-    border-radius: 20px;
+    background-color: aqua;
+    border: 1px solid;
+    border-radius: 4px;
+    text-align: center;
+    position: fixed;
+    top: 2px;
+
     }    
-    
+
+    body {
+        display: flex;
+        flex-direction: column;
+        margin: 90px 0 45px 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
 
     .card {
         margin: 20px 10%;
-        border: 1px solid #252629;
+        border: 1px solid;
         padding: 3% 10%;
         scroll-margin-top: 100px;
-        border-radius: 2rem;
+        border-radius: 4px;
         background-color: lightcyan;
       }
 
     footer {
         display: flex;
-        background-color: goldenrod;
-        border: 1px solid #252629;
+        background-color: aqua;
+        border: 1px solid;
         justify-content: center;
-        border-radius: 20px;
+        border-radius: 4px;
         flex-direction: row;   
     }
 
