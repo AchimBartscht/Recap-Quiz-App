@@ -31,6 +31,19 @@
         
       }
 
+      ul {
+        display: flex;
+      }
+
+      li {
+        list-style: none;
+        margin: 2px;
+        padding: 1px 3px 1px 3px;
+        border: 1px solid;
+        border-radius: 1px;
+        background-color: whitesmoke;
+      }
+
     footer {
         display: flex;
         background-color: aqua;
@@ -53,6 +66,17 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+  }
+
+  .bookmark-picture-within-card {
+    height: 2rem;
+    position: absolute;
+    top: 107px;
+    right: 60px;
+  }
+
+  .bookmark {
+    all: unset;
   }
   
   
