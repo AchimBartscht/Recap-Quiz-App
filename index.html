@@ -7,37 +7,29 @@
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
 
+<header class="header"><h1>Quiz App</h1></header>
 
-    <header class="header"><h1>Quiz App</h1></header>
 <body>
-    
 
-    <main>
+<main>
 
-        <section class="card">
-            <h2 class="card__heading">What property flips the axes in flexbox?</h2>
-            <button class="bookmark"></button>
-            <button class="bookmark" aria-label="Add bookmark for this card">
-                <img
-                  class="bookmark-picture-within-card"
-                  src="assets/bookmark-white.svg"
-                  alt="svg bookmark-white"
-                />
-              </button>
-            <button>Show answer</button>
+<section class="card">
+<h2 class="card-question">What property flips the axes in flexbox?</h2>
 
-        <ul>
-            <li class="answer_button">html</li>
-            <li class="answer_button">flexbox</li>
-            <li class="answer_button">class</li>
-        </ul>
-    </section>
+<button>Show answer</button>
+<ul>
+<li class="answer_button">html</li>
+<li class="answer_button">flexbox</li>
+<li class="answer_button">class</li>
+</ul>
+</section>
 
     <section class="card">
-        <h2 class="card__heading">First: Lore ipsum dolor</h2>
+        <h2 class="card-question">Second question</h2>
         <button class="bookmark"></button>
         <button class="bookmark bookmark-active" aria-label="Remove the bookmark for this card">
-            <img
+            
+          <img
               class="bookmark-picture-within-card"
               src="assets/bookmark-black.svg"
               alt="svg bookmark-black"
@@ -53,8 +45,13 @@
       </section>
 
       <section class="card">
-        <h2 class="card__heading">Second: Lore ipsum dolor</h2>
+        <h2 class="card-question">Third question</h2>
         <button class="bookmark"></button>
+
+        <img class="bookmark-picture-within-card"
+                  src="assets/bookmark-white.svg"
+                  alt="svg bookmark-white"
+                />
         <button>Show answer</button>
         <ul>
             <li class="answer_button">html</li>
@@ -63,24 +60,25 @@
         </ul>
         
       </section>
+
     </main>
 <footer>
     <nav>
       <a href="index.html" aria-label="go to home page"
       ><img
-        class="bookmark-picture-within-footer"
+        class="bookmark-picture-footer"
         src="assets/home-black.svg"
         alt="svg of black home-buttom"
     /></a>
     <a href="bookmarks.html" aria-label="go to bookmarks page"
       ><img
-        class="bookmark-picture-within-footer"
+        class="bookmark-picture-footer"
         src="assets/bookmark-white.svg"
         alt="svg of bookmark-white"
     /></a>
     <a href="profile.html" aria-label="go to profile page"
       ><img
-        class="bookmark-picture-within-footer"
+        class="bookmark-picture-footer"
         src="assets/user-white.svg"
         alt="svg of user user-white"
     /></a>

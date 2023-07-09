@@ -1,84 +1,92 @@
-* {    box-sizing: border-box;
-
+* {
+  box-sizing: border-box;
 }
 
-.header {
-    width: 100%;
-    background-color: goldenrod;
-    text-align: center;
-    position: fixed;
-    top: 0px;
-    font-size: smaller;
+header {
+  display: flex;
+  width: 100%;
+  background-color: goldenrod;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}   
 
-    }    
-
-body {
-display: flex;
-flex-direction: column;
-margin: 90px 0 45px 0;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-
-footer {
-display: flex;
-position: fixed;
-bottom: 0px;
-width: 100%;
-background-color: goldenrod;
-justify-content: center;  
-
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 70px;
+  margin-bottom: 15%;
   }
 
-footer nav {
+footer {
   display: flex;
-  justify-content: space-around;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  background-color: goldenrod;
+  justify-content: center;
+  font-size: smaller;
+   }
+
+ footer nav {
+  display: flex;
   align-items: center;
+  justify-content: space-between;
+  }
+
+.bookmark-picture-footer {
+  height: 3em;
 }
 
 .card {
-display: flex;
-flex-direction: column;
-align-items: center;
-margin: 20px 10%;
-border: 1px solid;
-padding: 3% 10%;
-border-radius: 4px;
-background-color: oldlace;
-font-size: smaller;
-        
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4px;
+  border: 1px solid;
+  border-color: lightgrey;
+  padding: 3% 10%;
+  border-radius: 4px;
+  background-color: whitesmoke;
+  font-size: smaller;
 }
 
 ul {
   display: flex;
 }
 
-      li {
-        list-style: none;
-        margin: 2px;
-        padding: 1px 3px 1px 3px;
-        border: 1px solid;
-        border-radius: 1px;
-        background-color: whitesmoke;
+li {
+  list-style: none;
+  margin: 6px;
+  padding: 1px 6px 1px 3px;
+  border: none;
+  color: white;
+  background-color: orange;
+        }
+
+      button {
+        color: white;
+        background-color: orangered;
+        border: none;
       }
 
-  
+      .bookmark-picture-within-card {
+        height: 2rem;
+        position: absolute;
+        top: 107px;
+        right: 70px;
+          }
 
-  .bookmark-picture-within-card {
-    height: 2rem;
-    position: absolute;
-    top: 107px;
-    right: 60px;
-  }
-
-  .bookmark {
-    all: unset;
-  }
+    .bookmark {
+      all: unset;
+    }
   
   
-  .bookmark-picture-within-footer {
-    height: 4em;
-  }
-
+   
    
 
 
