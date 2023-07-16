@@ -4,84 +4,63 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homepage</title>
-    <link rel="stylesheet" href="CSS/styles.css" />
+    <link rel="stylesheet" href="/styles.css" />
   </head>
 
-  <header class="header"><h1>Quiz App</h1></header>
-
   <body>
+    <header class="header">
+      <h1 class="header--h1">Quiz App</h1>
+    </header>
+
     <main>
       <section class="card">
-        <h2 class="card-question">What property flips the axes in flexbox?</h2>
+        
+        <h2 class="card--question">
+          Welche englische Motorradmarke fuhr der US-Schauspieler Steve McQueen
+          privat am liebsten?
+        </h2>
+        
+        <button class="answer--button">Show answer</button>
 
-        <button>Show answer</button>
-        <ul>
-          <li class="answer_button">html</li>
-          <li class="answer_button">flexbox</li>
-          <li class="answer_button">class</li>
+        <ul class="card--ul">
+          <li class="card__ul--li">
+            
+            <button class="card__ul__li--button">Norton</button></li>
+          <li class="card__ul--li">
+            
+            <button class="card__ul__li--button">Triumph</button></li>
+          <li class="card__ul--li">
+            
+          <button class="card__ul__li--button">Royal Enfield</button></li>
         </ul>
-      </section>
 
-      <section class="card">
-        <h2 class="card-question">Second question</h2>
-        <button class="bookmark"></button>
-        <button
-          class="bookmark bookmark-active"
-          aria-label="Remove the bookmark for this card"
-        >
-          <img
-            class="bookmark-picture-within-card"
+        <button>   
+        <a href="/assets/bookmark-black.svg" class="card--bookmark" aria-label="bookmark">
+          <img class="card__bookmark--bookmark-black"
             src="assets/bookmark-black.svg"
             alt="svg bookmark-black"
           />
         </button>
-        <button>Show answer</button>
-
-        <ul>
-          <li class="answer_button">html</li>
-          <li class="answer_button">flexbox</li>
-          <li class="answer_button">class</li>
-        </ul>
-      </section>
-
-      <section class="card">
-        <h2 class="card-question">Third question</h2>
-        <button class="bookmark"></button>
-
-        <img
-          class="bookmark-picture-within-card"
-          src="assets/bookmark-white.svg"
-          alt="svg bookmark-white"
-        />
-        <button>Show answer</button>
-        <ul>
-          <li class="answer_button">html</li>
-          <li class="answer_button">flexbox</li>
-          <li class="answer_button">class</li>
-        </ul>
       </section>
     </main>
-    <footer>
-      <nav>
-        <a href="index.html" aria-label="go to home page"
-          ><img
-            class="bookmark-picture-footer"
-            src="assets/home-black.svg"
-            alt="svg of black home-buttom"
+  <footer>
+    <nav class="footer--nav">
+      <a href="index.html" class="footer__nav--links" aria-label="go to home page">
+        <img class="footer__nav__links--image"
+          src="assets/home-black.svg"
+          alt="svg of black home-buttom"
         /></a>
-        <a href="bookmarks.html" aria-label="go to bookmarks page"
-          ><img
-            class="bookmark-picture-footer"
-            src="assets/bookmark-white.svg"
-            alt="svg of bookmark-white"
+      <a href="bookmarks.html" class="footer__nav--links" aria-label="go to bookmarks page">
+        <img class="footer__nav__links--image"
+          src="assets/bookmark-white.svg"
+          alt="svg of bookmark-white"
         /></a>
-        <a href="profile.html" aria-label="go to profile page"
-          ><img
-            class="bookmark-picture-footer"
+        <a href="profile.html" class="footer__nav--links" aria-label="go to profile page">
+          <img class="footer__nav__links--image"
             src="assets/user-white.svg"
             alt="svg of user user-white"
         /></a>
       </nav>
-    </footer>
-  </body>
+  </footer>
+</body>
 </html>

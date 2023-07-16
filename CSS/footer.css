@@ -1,0 +1,22 @@
+footer {
+  background-color: goldenrod;
+  padding: 20px;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer--nav {
+  border: 10px;
+  border-color: solid black;
+  padding: 2px;
+}
+.footer__nav--links {
+}
+
+.footer__nav__links--image {
+  align-items: center;
+  font-size: 48px;
+}
